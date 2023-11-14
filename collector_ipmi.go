@@ -140,6 +140,7 @@ func (c IPMICollector) Args() []string {
 		"--sdr-cache-recreate",
 		"--output-event-bitmask",
 		"--output-sensor-state",
+		"--entity-sensor-names",
 	}
 }
 
